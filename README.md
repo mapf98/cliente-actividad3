@@ -3,6 +3,8 @@
 
 Se elaboró un cliente con python para establecer una conexión a través del protocolo indicado.
 
+Requerimientos: tener python instalado para poder ejecutar scripts de este lenguaje.
+
 # Pasos a seguir para ejecutar el cliente
 
 + Clonar el repositorio en su ruta de preferencia
