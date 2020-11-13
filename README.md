@@ -1,5 +1,5 @@
 # Actividad 3 - Sistemas Distribuidos
-## UCAB - Ing. Informática
+**UCAB - Ing. Informática**
 
 Se elaboró un cliente con python para establecer una conexión a través del protocolo indicado.
 
@@ -8,6 +8,7 @@ Se elaboró un cliente con python para establecer una conexión a través del pr
 + Clonar el repositorio en su ruta de preferencia
 ```
 git clone https://github.com/mapf98/cliente-actividad3.git
+cd cliente-actividad3
 ```
 
 + Ejecutar el script de python llamado cliente.py con el usuario correspondiente
@@ -48,4 +49,4 @@ Ejemplo de uso:
 py cliente.py mapena.16 -cip 10.2.126.110 -sip 10.2.126.30 -tp 17777 -up 34450 -t 20.5
 ```
 
-## Creado por Miguel Peña C.I 26.530.119
+**Creado por Miguel Peña C.I 26.530.119**
