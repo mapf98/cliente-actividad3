@@ -6,9 +6,9 @@ from protocol import helloiam, msglen, givememsg, checksum, bye
 parser = argparse.ArgumentParser()
 parser.add_argument("user_name", help="Nombre de usuario para establecer conexión con el server.")
 parser.add_argument("-cip", "--client_ip", help="IPv4 del cliente.", default='10.2.126.99')
-parser.add_argument("-sip", "--server-ip", help="IPv4 del server.", default='10.2.126.2')
-parser.add_argument("-tp", "--tcp-port", help="Puerto TCP.", default=19876, type=int)
-parser.add_argument("-up", "--udp-port", help="Puerto UDP.", default=55350, type=int)
+parser.add_argument("-sip", "--server-ip", help="IPv4 del servidor.", default='10.2.126.2')
+parser.add_argument("-tp", "--tcp-port", help="Puerto TCP del servidor.", default=19876, type=int)
+parser.add_argument("-up", "--udp-port", help="Puerto UDP del cliente.", default=55350, type=int)
 parser.add_argument("-t", "--timeout", help="Tiempo de espera para establecer la conexión en segundos.", default=20.0, type=float)
 args = parser.parse_args()
 
